@@ -40,6 +40,12 @@ public class GitDemo {
      *  the function will return 4321
      *****/
     public double reverseNumber(int num){
+ branch1
+        double newNumber = 1;
+        reverseNum = newNumber;
+        for(int i = 1; i <= num; ++i){
+            newNumber = newNumber * i;
+
          
         double factorialNumber = 0;
         
@@ -47,6 +53,7 @@ public class GitDemo {
             double temp = num % 10;
             factorialNumber = factorialNumber * 10 + temp;
             num /= 10;
+main
         }
         
         return factorialNumber;
